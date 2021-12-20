@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="AgenciaViajeKuntur">
+  <ClassDiagramComponents>
+    <Class name="Empleados" package="CapaNegocio" visibility="public" xPosition="678.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombres" type="String" visibility="private"/>
+        <Field name="apellidos" type="String" visibility="private"/>
+        <Field name="horaEntrada" type="Date" visibility="private"/>
+        <Field name="horaSalida" type="Date" visibility="private"/>
+        <Field name="cargo" type="String" visibility="private"/>
+        <Field name="numeroTelef" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombres" returnType="String" visibility="public"/>
+        <Method name="setNombres" returnType="void" visibility="public">
+          <Argument type="String" name="nombres"/>
+        </Method>
+        <Method name="getApellidos" returnType="String" visibility="public"/>
+        <Method name="setApellidos" returnType="void" visibility="public">
+          <Argument type="String" name="apellidos"/>
+        </Method>
+        <Method name="getHoraEntrada" returnType="Date" visibility="public"/>
+        <Method name="setHoraEntrada" returnType="void" visibility="public">
+          <Argument type="Date" name="horaEntrada"/>
+        </Method>
+        <Method name="getHoraSalida" returnType="Date" visibility="public"/>
+        <Method name="setHoraSalida" returnType="void" visibility="public">
+          <Argument type="Date" name="horaSalida"/>
+        </Method>
+        <Method name="getCargo" returnType="String" visibility="public"/>
+        <Method name="setCargo" returnType="void" visibility="public">
+          <Argument type="String" name="cargo"/>
+        </Method>
+        <Method name="getNumeroTelef" returnType="String" visibility="public"/>
+        <Method name="setNumeroTelef" returnType="void" visibility="public">
+          <Argument type="String" name="numeroTelef"/>
+        </Method>
+        <Method name="Atener" returnType="String" visibility="public"/>
+        <Method name="Orientar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Empresas" package="CapaNegocio" visibility="public" xPosition="464.0" yPosition="400.0">
+      <Fields>
+        <Field name="tipo" type="String" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getTipo" returnType="String" visibility="public"/>
+        <Method name="setTipo" returnType="void" visibility="public">
+          <Argument type="String" name="tipo"/>
+        </Method>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Paquetes" package="CapaNegocio" visibility="public" xPosition="955.0" yPosition="20.0">
+      <Fields>
+        <Field name="alojamiento" type="String" visibility="private"/>
+        <Field name="transporte" type="String" visibility="private"/>
+        <Field name="restaurante" type="String" visibility="private"/>
+        <Field name="actividades" type="String" visibility="private"/>
+        <Field name="permisos" type="String" visibility="private"/>
+        <Field name="guia" type="String" visibility="private"/>
+        <Field name="excursiones" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getAlojamiento" returnType="String" visibility="public"/>
+        <Method name="setAlojamiento" returnType="void" visibility="public">
+          <Argument type="String" name="alojamiento"/>
+        </Method>
+        <Method name="getTransporte" returnType="String" visibility="public"/>
+        <Method name="setTransporte" returnType="void" visibility="public">
+          <Argument type="String" name="transporte"/>
+        </Method>
+        <Method name="getRestaurante" returnType="String" visibility="public"/>
+        <Method name="setRestaurante" returnType="void" visibility="public">
+          <Argument type="String" name="restaurante"/>
+        </Method>
+        <Method name="getActividades" returnType="String" visibility="public"/>
+        <Method name="setActividades" returnType="void" visibility="public">
+          <Argument type="String" name="actividades"/>
+        </Method>
+        <Method name="getPermisos" returnType="String" visibility="public"/>
+        <Method name="setPermisos" returnType="void" visibility="public">
+          <Argument type="String" name="permisos"/>
+        </Method>
+        <Method name="getGuia" returnType="String" visibility="public"/>
+        <Method name="setGuia" returnType="void" visibility="public">
+          <Argument type="String" name="guia"/>
+        </Method>
+        <Method name="getExcursiones" returnType="String" visibility="public"/>
+        <Method name="setExcursiones" returnType="void" visibility="public">
+          <Argument type="String" name="excursiones"/>
+        </Method>
+        <Method name="Organizar" returnType="String" visibility="public"/>
+        <Method name="Ofrecer" returnType="String" visibility="public"/>
+        <Method name="Adecuar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Personas" package="CapaNegocio" visibility="public" xPosition="221.0" yPosition="400.0">
+      <Fields>
+        <Field name="conexion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getConexion" returnType="String" visibility="public"/>
+        <Method name="setConexion" returnType="void" visibility="public">
+          <Argument type="String" name="conexion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Proveedores" package="CapaNegocio" visibility="public" xPosition="284.0" yPosition="9.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="montoPago" type="String" visibility="private"/>
+        <Field name="gradoImportancia" type="String" visibility="private"/>
+        <Field name="lugarOrigen" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getMontoPago" returnType="String" visibility="public"/>
+        <Method name="setMontoPago" returnType="void" visibility="public">
+          <Argument type="String" name="montoPago"/>
+        </Method>
+        <Method name="getGradoImportancia" returnType="String" visibility="public"/>
+        <Method name="setGradoImportancia" returnType="void" visibility="public">
+          <Argument type="String" name="gradoImportancia"/>
+        </Method>
+        <Method name="getLugarOrigen" returnType="String" visibility="public"/>
+        <Method name="setLugarOrigen" returnType="void" visibility="public">
+          <Argument type="String" name="lugarOrigen"/>
+        </Method>
+        <Method name="Aportar" returnType="String" visibility="public"/>
+        <Method name="Promocionar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Reserva" package="CapaNegocio" visibility="public" xPosition="1224.0" yPosition="20.0">
+      <Fields>
+        <Field name="lugarOrigen" type="String" visibility="private"/>
+        <Field name="lugarDestino" type="String" visibility="private"/>
+        <Field name="cantidadDias" type="float" visibility="private"/>
+        <Field name="numeroPersonas" type="int" visibility="private"/>
+        <Field name="representante" type="String" visibility="private"/>
+        <Field name="precio" type="String" visibility="private"/>
+        <Field name="fechaPartida" type="Date" visibility="private"/>
+        <Field name="fechaLlegada" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getLugarOrigen" returnType="String" visibility="public"/>
+        <Method name="setLugarOrigen" returnType="void" visibility="public">
+          <Argument type="String" name="lugarOrigen"/>
+        </Method>
+        <Method name="getLugarDestino" returnType="String" visibility="public"/>
+        <Method name="setLugarDestino" returnType="void" visibility="public">
+          <Argument type="String" name="lugarDestino"/>
+        </Method>
+        <Method name="getCantidadDias" returnType="float" visibility="public"/>
+        <Method name="setCantidadDias" returnType="void" visibility="public">
+          <Argument type="float" name="cantidadDias"/>
+        </Method>
+        <Method name="getNumeroPersonas" returnType="int" visibility="public"/>
+        <Method name="setNumeroPersonas" returnType="void" visibility="public">
+          <Argument type="int" name="numeroPersonas"/>
+        </Method>
+        <Method name="getRepresentante" returnType="String" visibility="public"/>
+        <Method name="setRepresentante" returnType="void" visibility="public">
+          <Argument type="String" name="representante"/>
+        </Method>
+        <Method name="getPrecio" returnType="String" visibility="public"/>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="String" name="precio"/>
+        </Method>
+        <Method name="getFechaPartida" returnType="Date" visibility="public"/>
+        <Method name="setFechaPartida" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaPartida"/>
+        </Method>
+        <Method name="getFechaLlegada" returnType="Date" visibility="public"/>
+        <Method name="setFechaLlegada" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaLlegada"/>
+        </Method>
+        <Method name="Reservar" returnType="String" visibility="public"/>
+        <Method name="Guardar" returnType="String" visibility="public"/>
+        <Method name="Comprobar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="CapaNegocio.Empresas" target="CapaNegocio.Proveedores"/>
+    <IsRelation name="is" source="CapaNegocio.Personas" target="CapaNegocio.Proveedores"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
